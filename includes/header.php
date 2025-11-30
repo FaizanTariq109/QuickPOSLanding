@@ -39,7 +39,7 @@
                 
                 <!-- CTA Button will be added in SPM-9 -->
                 <div class="nav-cta">
-                    <!-- Sign Up Button added in SPM-9 -->
+                    <a href="#contact" class="btn btn-primary">Sign Up Free</a>
                 </div>
             </div>
         </div>
