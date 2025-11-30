@@ -29,7 +29,12 @@
                 
                 <!-- Navigation will be added in SPM-8 -->
                 <div class="nav-menu" id="navMenu">
-                    <!-- Links added in SPM-8 -->
+                    <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
                 </div>
                 
                 <!-- CTA Button will be added in SPM-9 -->
