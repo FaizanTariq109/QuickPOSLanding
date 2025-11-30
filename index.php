@@ -28,8 +28,22 @@ include 'includes/header.php';
             
             <div class="hero-image">
                 <img src="assets/images/pos-mockup.png" alt="QuickPOS System Dashboard" class="mockup-img">
-            <div class="mockup-glow"></div>
-</div>
+                <div class="mockup-glow"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="features" class="features-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h2 class="section-title">Powerful Features for Modern Businesses</h2>
+            <p class="section-subtitle">Everything you need to run your business efficiently</p>
+        </div>
+        
+        <!-- Features Grid - SPM-14 -->
+        <div class="features-grid">
+            <!-- Individual features added in SPM-15 & SPM-16 -->
         </div>
     </div>
 </section>
