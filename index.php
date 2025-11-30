@@ -11,7 +11,6 @@ include 'includes/header.php';
     <div class="container">
         <div class="hero-content">
             <div class="hero-text">
-                <!-- Main Headline - SPM-10 -->
                 <h1 class="hero-title">
                     Modernize Your Business with <span class="gradient-text">QuickPOS</span>
                 </h1>
@@ -52,7 +51,10 @@ include 'includes/header.php';
                         <line x1="12" y1="17" x2="12" y2="21"/>
                     </svg>
                 </div>
-                <!-- Description added in SPM-16 -->
+                <div class="feature-content">
+    <h3 class="feature-title">Easy to Use Interface</h3>
+    <p class="feature-description">Intuitive design that your team can master in minutes, not weeks.</p>
+</div>
             </div>
 
             <div class="feature-card">
@@ -64,6 +66,10 @@ include 'includes/header.php';
                         <circle cx="7" cy="7" r="3"/>
                     </svg>
                 </div>
+                <div class="feature-content">
+    <h3 class="feature-title">Inventory Management</h3>
+    <p class="feature-description">Track stock levels in real-time and never run out of bestsellers.</p>
+</div>
             </div>
 
             <div class="feature-card">
@@ -73,6 +79,10 @@ include 'includes/header.php';
                         <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
                     </svg>
                 </div>
+                <div class="feature-content">
+    <h3 class="feature-title">Multiple Payment Options</h3>
+    <p class="feature-description">Accept cash, cards, mobile payments, and more—all in one system.</p>
+</div>
             </div>
 
             <div class="feature-card">
@@ -83,6 +93,10 @@ include 'includes/header.php';
                         <line x1="12" y1="22.08" x2="12" y2="12"/>
                     </svg>
                 </div>
+                <div class="feature-content">
+    <h3 class="feature-title">Cloud-Based System</h3>
+    <p class="feature-description">Access your data from anywhere, on any device, anytime.</p>
+</div>
             </div>
 
             <div class="feature-card">
@@ -91,6 +105,10 @@ include 'includes/header.php';
                         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
                     </svg>
                 </div>
+                <div class="feature-content">
+    <h3 class="feature-title">Real-Time Analytics</h3>
+    <p class="feature-description">Make data-driven decisions with powerful sales insights.</p>
+</div>
             </div>
 
             <div class="feature-card">
@@ -100,6 +118,10 @@ include 'includes/header.php';
                         <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
                     </svg>
                 </div>
+                <div class="feature-content">
+    <h3 class="feature-title">Secure & Reliable</h3>
+    <p class="feature-description">Enterprise-grade security keeping your business data safe 24/7.</p>
+</div>
             </div>
         </div>
     </div>
