@@ -136,7 +136,6 @@ include 'includes/header.php';
         
         <!-- Pricing Grid - SPM-17 -->
         <div class="pricing-grid">
-            <!-- Individual plans added in SPM-18, SPM-19, SPM-20 -->
              <!-- Basic Plan - SPM-18 -->
             <div class="pricing-card">
                 <div class="pricing-header">
@@ -160,45 +159,48 @@ include 'includes/header.php';
     
                 <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
             </div>
+
             <!-- Pro Plan - SPM-19 -->
             <div class="pricing-card pricing-featured">
-            <div class="featured-badge">Most Popular</div>
+                <div class="featured-badge">Most Popular</div>
     
-            <div class="pricing-header">
-                <h3 class="plan-name">Pro</h3>
-                <p class="plan-description">Ideal for growing businesses</p>
-            </div>
+                <div class="pricing-header">
+                    <h3 class="plan-name">Pro</h3>
+                    <p class="plan-description">Ideal for growing businesses</p>
+                </div>
     
-            <div class="pricing-price">
-                <span class="currency">$</span>
-                <span class="amount">79</span>
-                <span class="period">/month</span>
-            </div>
+                <div class="pricing-price">
+                    <span class="currency">$</span>
+                    <span class="amount">79</span>
+                    <span class="period">/month</span>
+                </div>
     
-            <ul class="pricing-features">
-                <li>✓ Up to 5 devices</li>
-                <li>✓ Advanced inventory management</li>
-                <li>✓ Advanced analytics & reports</li>
-                <li>✓ Priority support</li>
-                <li>✓ Unlimited products</li>
-                <li>✓ Customer management</li>
-                <li>✓ Multi-location support</li>
-            </ul>
+                <ul class="pricing-features">
+                    <li>✓ Up to 5 devices</li>
+                    <li>✓ Advanced inventory management</li>
+                    <li>✓ Advanced analytics & reports</li>
+                    <li>✓ Priority support</li>
+                    <li>✓ Unlimited products</li>
+                    <li>✓ Customer management</li>
+                    <li>✓ Multi-location support</li>
+                </ul>
     
-            <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+                <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+            </div> <!-- Closing Pro Plan -->
+
             <!-- Enterprise Plan - SPM-20 -->
             <div class="pricing-card">
                 <div class="pricing-header">
                     <h3 class="plan-name">Enterprise</h3>
                     <p class="plan-description">For large-scale operations</p>
                 </div>
-    
+
                 <div class="pricing-price">
                     <span class="currency">$</span>
                     <span class="amount">199</span>
                     <span class="period">/month</span>
                 </div>
-    
+
                 <ul class="pricing-features">
                     <li>✓ Unlimited devices</li>
                     <li>✓ Full inventory suite</li>
@@ -209,10 +211,99 @@ include 'includes/header.php';
                     <li>✓ Custom training</li>
                     <li>✓ API access</li>
                 </ul>
-    
                 <a href="#contact" class="btn btn-outline btn-block">Contact Sales</a>
             </div>
         </div>
     </div>
-</div>
 </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions? We'd love to hear from you.</p>
+        </div>
+        
+        <!-- Contact Form - SPM-21 -->
+        <div class="contact-wrapper">
+            <form id="contactForm" class="contact-form" method="POST" action="contact-handler.php">
+                <!-- Name Field -->
+                <div class="form-group">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        class="form-input" 
+                        placeholder="John Doe" 
+                        required
+                    >
+                </div>
+                
+                <!-- Email Field -->
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        class="form-input" 
+                        placeholder="john@example.com" 
+                        required
+                    >
+                </div>
+                
+                <!-- Phone Field -->
+                <div class="form-group">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input 
+                        type="tel" 
+                        id="phone" 
+                        name="phone" 
+                        class="form-input" 
+                        placeholder="+1 (555) 000-0000"
+                    >
+                </div>
+                
+                <!-- Subject Field -->
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <select id="subject" name="subject" class="form-input" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="sales">Sales Question</option>
+                        <option value="support">Technical Support</option>
+                        <option value="demo">Request a Demo</option>
+                    </select>
+                </div>
+                
+                <!-- Message Field -->
+                <div class="form-group form-group-full">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        class="form-input form-textarea" 
+                        rows="5" 
+                        placeholder="Tell us how we can help you..."
+                        required
+                    ></textarea>
+                </div>
+                
+                <!-- Submit Button -->
+                <div class="form-group form-group-full">
+                    <button type="submit" class="btn btn-primary btn-large btn-block">
+                        Send Message
+                    </button>
+                </div>
+                
+                <!-- Response Message -->
+                <div id="formResponse" class="form-response"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<?php include 'includes/footer.php'; ?>
