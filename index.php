@@ -138,55 +138,81 @@ include 'includes/header.php';
         <div class="pricing-grid">
             <!-- Individual plans added in SPM-18, SPM-19, SPM-20 -->
              <!-- Basic Plan - SPM-18 -->
-<div class="pricing-card">
-    <div class="pricing-header">
-        <h3 class="plan-name">Basic</h3>
-        <p class="plan-description">Perfect for small businesses</p>
-    </div>
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="plan-name">Basic</h3>
+                    <p class="plan-description">Perfect for small businesses</p>
+                </div>
     
-    <div class="pricing-price">
-        <span class="currency">$</span>
-        <span class="amount">29</span>
-        <span class="period">/month</span>
-    </div>
+                <div class="pricing-price">
+                    <span class="currency">$</span>
+                    <span class="amount">29</span>
+                    <span class="period">/month</span>
+                </div>
     
-    <ul class="pricing-features">
-        <li>✓ Up to 2 devices</li>
-        <li>✓ Basic inventory management</li>
-        <li>✓ Sales reports</li>
-        <li>✓ Email support</li>
-        <li>✓ 100 products</li>
-    </ul>
+                <ul class="pricing-features">
+                    <li>✓ Up to 2 devices</li>
+                    <li>✓ Basic inventory management</li>
+                    <li>✓ Sales reports</li>
+                    <li>✓ Email support</li>
+                    <li>✓ 100 products</li>
+                </ul>
     
-    <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
-</div>
-<!-- Pro Plan - SPM-19 -->
-<div class="pricing-card pricing-featured">
-    <div class="featured-badge">Most Popular</div>
+                <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+            </div>
+            <!-- Pro Plan - SPM-19 -->
+            <div class="pricing-card pricing-featured">
+            <div class="featured-badge">Most Popular</div>
     
-    <div class="pricing-header">
-        <h3 class="plan-name">Pro</h3>
-        <p class="plan-description">Ideal for growing businesses</p>
-    </div>
+            <div class="pricing-header">
+                <h3 class="plan-name">Pro</h3>
+                <p class="plan-description">Ideal for growing businesses</p>
+            </div>
     
-    <div class="pricing-price">
-        <span class="currency">$</span>
-        <span class="amount">79</span>
-        <span class="period">/month</span>
-    </div>
+            <div class="pricing-price">
+                <span class="currency">$</span>
+                <span class="amount">79</span>
+                <span class="period">/month</span>
+            </div>
     
-    <ul class="pricing-features">
-        <li>✓ Up to 5 devices</li>
-        <li>✓ Advanced inventory management</li>
-        <li>✓ Advanced analytics & reports</li>
-        <li>✓ Priority support</li>
-        <li>✓ Unlimited products</li>
-        <li>✓ Customer management</li>
-        <li>✓ Multi-location support</li>
-    </ul>
+            <ul class="pricing-features">
+                <li>✓ Up to 5 devices</li>
+                <li>✓ Advanced inventory management</li>
+                <li>✓ Advanced analytics & reports</li>
+                <li>✓ Priority support</li>
+                <li>✓ Unlimited products</li>
+                <li>✓ Customer management</li>
+                <li>✓ Multi-location support</li>
+            </ul>
     
-    <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
-</div>
+            <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+            <!-- Enterprise Plan - SPM-20 -->
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="plan-name">Enterprise</h3>
+                    <p class="plan-description">For large-scale operations</p>
+                </div>
+    
+                <div class="pricing-price">
+                    <span class="currency">$</span>
+                    <span class="amount">199</span>
+                    <span class="period">/month</span>
+                </div>
+    
+                <ul class="pricing-features">
+                    <li>✓ Unlimited devices</li>
+                    <li>✓ Full inventory suite</li>
+                    <li>✓ Custom reports & analytics</li>
+                    <li>✓ 24/7 dedicated support</li>
+                    <li>✓ Unlimited products</li>
+                    <li>✓ Advanced integrations</li>
+                    <li>✓ Custom training</li>
+                    <li>✓ API access</li>
+                </ul>
+    
+                <a href="#contact" class="btn btn-outline btn-block">Contact Sales</a>
+            </div>
         </div>
     </div>
+</div>
 </section>
