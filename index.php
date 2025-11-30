@@ -26,7 +26,10 @@ include 'includes/header.php';
                 </div>
             </div>
             
-            <!-- Hero Image added in SPM-13 -->
+            <div class="hero-image">
+                <img src="assets/images/pos-mockup.png" alt="QuickPOS System Dashboard" class="mockup-img">
+            <div class="mockup-glow"></div>
+</div>
         </div>
     </div>
 </section>
