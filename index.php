@@ -20,7 +20,10 @@ include 'includes/header.php';
                     The fastest, most reliable point-of-sale system designed for modern businesses. 
                     Boost sales, manage inventory, and delight customers—all in one platform.
                 </p>
-                <!-- CTA Button added in SPM-12 -->
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-large btn-primary">Get Started Free</a>
+                    <a href="#features" class="btn btn-large btn-outline">Learn More</a>
+                </div>
             </div>
             
             <!-- Hero Image added in SPM-13 -->
