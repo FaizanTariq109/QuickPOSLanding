@@ -137,6 +137,30 @@ include 'includes/header.php';
         <!-- Pricing Grid - SPM-17 -->
         <div class="pricing-grid">
             <!-- Individual plans added in SPM-18, SPM-19, SPM-20 -->
+             <!-- Basic Plan - SPM-18 -->
+<div class="pricing-card">
+    <div class="pricing-header">
+        <h3 class="plan-name">Basic</h3>
+        <p class="plan-description">Perfect for small businesses</p>
+    </div>
+    
+    <div class="pricing-price">
+        <span class="currency">$</span>
+        <span class="amount">29</span>
+        <span class="period">/month</span>
+    </div>
+    
+    <ul class="pricing-features">
+        <li>✓ Up to 2 devices</li>
+        <li>✓ Basic inventory management</li>
+        <li>✓ Sales reports</li>
+        <li>✓ Email support</li>
+        <li>✓ 100 products</li>
+    </ul>
+    
+    <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+</div>
+<!-- SPM-19 -->
         </div>
     </div>
 </section>
