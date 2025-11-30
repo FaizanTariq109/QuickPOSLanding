@@ -126,3 +126,17 @@ include 'includes/header.php';
         </div>
     </div>
 </section>
+<section id="pricing" class="pricing-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h2 class="section-title">Simple, Transparent Pricing</h2>
+            <p class="section-subtitle">Choose the plan that fits your business needs</p>
+        </div>
+        
+        <!-- Pricing Grid - SPM-17 -->
+        <div class="pricing-grid">
+            <!-- Individual plans added in SPM-18, SPM-19, SPM-20 -->
+        </div>
+    </div>
+</section>
