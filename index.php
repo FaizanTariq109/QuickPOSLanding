@@ -16,7 +16,10 @@ include 'includes/header.php';
                     Modernize Your Business with <span class="gradient-text">QuickPOS</span>
                 </h1>
                 
-                <!-- Sub Headline added in SPM-11 -->
+                <p class="hero-subtitle">
+                    The fastest, most reliable point-of-sale system designed for modern businesses. 
+                    Boost sales, manage inventory, and delight customers—all in one platform.
+                </p>
                 <!-- CTA Button added in SPM-12 -->
             </div>
             
