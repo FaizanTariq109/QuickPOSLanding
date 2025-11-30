@@ -73,7 +73,7 @@ $message = htmlspecialchars($message, ENT_QUOTES, 'UTF-8');
 // ===========================
 // EMAIL CONFIGURATION
 // ===========================
-$to = 'info@quickpos.com'; // Replace with your email
+$to = 'f223714@cfd.nu.edu.pk'; 
 $email_subject = "QuickPOS Contact Form: $subject";
 
 // Email body
