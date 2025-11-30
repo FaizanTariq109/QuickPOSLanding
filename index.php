@@ -160,7 +160,33 @@ include 'includes/header.php';
     
     <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
 </div>
-<!-- SPM-19 -->
+<!-- Pro Plan - SPM-19 -->
+<div class="pricing-card pricing-featured">
+    <div class="featured-badge">Most Popular</div>
+    
+    <div class="pricing-header">
+        <h3 class="plan-name">Pro</h3>
+        <p class="plan-description">Ideal for growing businesses</p>
+    </div>
+    
+    <div class="pricing-price">
+        <span class="currency">$</span>
+        <span class="amount">79</span>
+        <span class="period">/month</span>
+    </div>
+    
+    <ul class="pricing-features">
+        <li>✓ Up to 5 devices</li>
+        <li>✓ Advanced inventory management</li>
+        <li>✓ Advanced analytics & reports</li>
+        <li>✓ Priority support</li>
+        <li>✓ Unlimited products</li>
+        <li>✓ Customer management</li>
+        <li>✓ Multi-location support</li>
+    </ul>
+    
+    <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+</div>
         </div>
     </div>
 </section>
