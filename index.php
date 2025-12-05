@@ -3,6 +3,7 @@
  * QuickPOS Landing Page - Main File
  * Jira: SPM-10, SPM-11, SPM-12, SPM-13
  * php -S localhost:8000
+ * 
  * http://localhost:8000/index.php
  * 
  */
